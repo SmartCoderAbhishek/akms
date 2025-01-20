@@ -1,0 +1,5 @@
+.vs
+/akmsservice/.dockerignore
+/akmsservice/bin
+/akmsservice/obj
+/akmsservice/Dockerfile
