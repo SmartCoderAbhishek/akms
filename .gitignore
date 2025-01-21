@@ -3,3 +3,5 @@
 /akmsservice/bin
 /akmsservice/obj
 /akmsservice/Dockerfile
+/akmsservice/logs
+/akmsservice/.cr
