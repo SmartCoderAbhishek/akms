@@ -5,3 +5,9 @@
 /akmsservice/Dockerfile
 /akmsservice/logs
 /akmsservice/.cr
+/Application/bin
+/Application/obj
+/Core/bin
+/Core/obj
+/Infrastructure/bin
+/Infrastructure/obj

@@ -7,6 +7,8 @@
     <UserSecretsId>5888b6c3-557b-41df-8b30-6b5206d77d5b</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>D:\Work\akms\akmsservice\bin\Debug\net8.0\akmsservice.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,6 +33,16 @@
     <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.4" />
     <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Middlewares\" />
   </ItemGroup>
 
 </Project>
